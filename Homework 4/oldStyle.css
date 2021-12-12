@@ -1,0 +1,71 @@
+* {
+    color:white;
+}
+
+
+
+body{
+    background-image:url("Images/Background1.jpg");
+}
+
+h1 {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+h2,p,form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul{
+    float: left;
+    padding-left:10%;
+}
+
+input {
+    background-color:darkslategrey;
+}
+
+
+
+.button {
+    width: 10%;
+    height: 20%;
+}
+
+.textBox {
+    width: 30%;
+}
+
+
+
+#image {
+    width: 60%;
+    padding-top: 10%;
+    padding-left:20%;
+}
+
+#aboutMe{
+    background-color:darkslategrey;
+    width: 40%;
+}
+
+#contact {
+    position: absolute;
+    left:25%;
+    top: 100%; 
+    width: 85%;
+}
+
+#messageBox {
+    background-color:darkslategrey;
+    width: 45%;
+    resize: none;
+}
+
+#rightSide {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}

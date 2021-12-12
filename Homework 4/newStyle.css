@@ -1,0 +1,79 @@
+* {
+    color:black;
+}
+
+
+
+body {
+    background-image: url(Images/Background\ 2.jpg);
+}
+
+form {
+    text-align:center;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+}
+
+h1 {
+    text-align:center;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+h2,p{
+    text-align:center;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+.button {
+    width: 20%;
+    height: 30%;
+}
+
+.textBox {
+    width: 50%;
+}
+
+
+
+#information,#skills,ul {
+    float: left;
+}
+
+#contact {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    width: 50%;
+}
+
+#messageBox {
+
+    width: 65%;
+    resize: none;
+}
+
+#rightSide {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+
+#image {
+    width: 40%;
+    padding-top: 5%;
+    padding-left:30%;
+}
+
+#aboutMe{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+}
