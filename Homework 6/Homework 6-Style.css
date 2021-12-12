@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:black;
+    border: 10px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 100%;
+    transition: opacity 3s;
+}
+body:hover {
+    opacity: 100%;
+}
+#Header {
+    text-align: center;
+    background-color:darkcyan;
+    border: 10px solid white;
+    width: 100%;
+    height: 100px;
+}
+
+#Footer {
+    text-align: center;
+    background-color: cyan;
+    border: 10px solid white;
+    width: 100%; 
+    height: 100px;
+}
+
+#Aside {
+    width: 40%;
+    height:475px;
+    background-color: yellow;
+}
+
+#Article {
+    width: 60%;
+    height:475px;
+    background-color: blue;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+#Articletext {
+    width: 100%;
+}
+
+.images {
+    width: 200px;
+    height: 100px;
+    background-color:red;
+    margin: 10px;
+    padding: 20px;
+    align-self: flex-end;
+}
+
+.images:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
